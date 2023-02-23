@@ -9,7 +9,7 @@ like
 * subcript
 * superscript
 * small text
-1. ### `<code>`
+### 1. `<code>`
 * The code tag is used when we want our code to stand out and should be looked like a code. Then we encapsulated our html or css code between the `<code> </code>`.
 * The code tag is an **inline elemnent**.
 * The code tag  changes the style of fonts to monospace, thats exactly we want our code to look.
@@ -32,3 +32,49 @@ like
 </code>
 ```
 This is how html shows the code on the web page instead of being executed.
+
+* one more example of css code, to display on the web browser.
+```
+<p>
+    We can write <code> {color:green;} </code> in our CSS, and it will apply to anything up as an elements.
+    
+</p>
+```
+
+### 2. `<br>`
+* <br\> tag is for **line break**.
+* Sometimes we want line break. but html ignores extra lines. As shown in the below we want each verse to be started at new line. as we have written. but html consider the whole bunch of lines as one paragraph and will display without line breaks. Furthermore, we cannot encapsulate each line within the paragraph element `<p> </p>`. because these are not seperate paragraphs. We just wanna line break at the end of each line, something that browsers will respect.
+
+```
+<p>
+    Baa, baa black sheep,
+    have you any wook?
+    Yes sir, yes sir, three bags full!
+    One for the master,
+    one for the dame,
+    and one for the little boy
+    who lives down the lane.
+</p>
+
+
+<cite>- Rudyard Kipling</cite>
+
+```
+* So, putting `<br>` tag at the end of each line, where we want line breaks.
+
+```
+<p>
+    Baa, baa black sheep, <br>
+    have you any wook? <br>
+    Yes sir, yes sir, three bags full! <br>
+    One for the master, <br>
+    one for the dame, <br>
+    and one for the little boy <br>
+    who lives down the lane. <br>
+</p>
+
+
+<cite>- Rudyard Kipling</cite>
+```
+
+
